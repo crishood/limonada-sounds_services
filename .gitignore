@@ -1,0 +1,39 @@
+# Evita subir el entorno virtual
+limonada/
+
+# Archivos de configuración de entorno
+.env
+*.env
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de datos SQLite (si estás usando PostgreSQL, puedes ignorarlo)
+db.sqlite3
+
+# Archivos de logs y migraciones innecesarias
+*.log
+migrations/__pycache__/
+
+# Archivos y carpetas de Django
+staticfiles/
+media/
+
+# Configuración de VS Code / PyCharm / JetBrains
+.vscode/
+.idea/
+*.swp
+
+# Dependencias de Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de Docker (si usas Docker)
+docker-compose.override.yml
+*.pid
+
+# Archivos de MacOS
+.DS_Store
