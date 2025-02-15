@@ -26,7 +26,6 @@ class Product(models.Model):
     tags = models.JSONField(default=list, blank=True, null=True)
     file_url = models.TextField()
     image_url = models.TextField()
-    stock = models.IntegerField(null=True, blank=True)
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
